@@ -63,6 +63,49 @@ const Appartement = () => {
             />
           </section>
         </div>
+        <div className="bg-white pt-14 block md:hidden">
+         <div className="overflow-x-auto scrollbar-hide">
+    <div className="flex space-x-4">
+          <ImageAppart
+              location="KENYA"
+              subtitle="douala"
+              title="Belle Villa de 02 chambres pieds dans l'eau"
+              price="300 000 FCFA"
+              imageUrl={to8} // Remplace par l'URL de ton image
+            />
+               <ImageAppart
+              location="KENYA"
+              subtitle="douala"
+              title="Belle Villa de 02 chambres pieds dans l'eau"
+              price="300 000 FCFA"
+              imageUrl={to8} // Remplace par l'URL de ton image
+            />
+               <ImageAppart
+              location="KENYA"
+              subtitle="douala"
+              title="Belle Villa de 02 chambres pieds dans l'eau"
+              price="300 000 FCFA"
+              imageUrl={to8} // Remplace par l'URL de ton image
+            />
+               <ImageAppart
+              location="KENYA"
+              subtitle="douala"
+              title="Belle Villa de 02 chambres pieds dans l'eau"
+              price="300 000 FCFA"
+              imageUrl={to8} // Remplace par l'URL de ton image
+            />
+      </div>
+      </div>
+      </div>
+           <div class="max-w-7xl mx-auto pt-14 block md:hidden  ">
+    <section class=" h-[70px] bg-white rounded-md flex justify-center items-center">
+             <Button
+                text="Voir tous les Appartements"
+                onClick={handleClick}
+                className="" // Si tu veux ajouter des classes supplémentaires
+              />
+    </section>
+    </div>
       </div>
     );
 };

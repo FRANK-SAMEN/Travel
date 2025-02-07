@@ -65,10 +65,57 @@ const Hotels = () => {
             <Button
               text="Voir tous les Hotels"
               onClick={handleClick}
-              className="" // Si tu veux ajouter des classes supplémentaires
+              className="" // Si tu veux ajouter des classNamees supplémentaires
             />
           </section>
         </div>
+        <div className="max-w-7xl mx-auto  bg-white pt-14 block md:hidden">
+    <div className="overflow-x-auto scrollbar-hide">
+    <div className="flex space-x-4">
+      <div className=" flex-none bg-white bg-no-repeat shadow-md relative h-full rounded-xl overflow-hidden">
+        <ImageHotel
+                  ImageSrc={to7}
+                  hotelName="STAR LAND HOTEL BASTOS"
+                  location="Yaoundé"
+                  price="198EUR"
+                /> 
+ </div>
+  <div className=" flex-none bg-white bg-no-repeat shadow-md relative h-full rounded-xl overflow-hidden">
+        <ImageHotel
+                  ImageSrc={to7}
+                  hotelName="STAR LAND HOTEL BASTOS"
+                  location="Yaoundé"
+                  price="198EUR"
+                /> 
+ </div>
+  <div className=" flex-none bg-white bg-no-repeat shadow-md relative h-full rounded-xl overflow-hidden">
+        <ImageHotel
+                  ImageSrc={to7}
+                  hotelName="STAR LAND HOTEL BASTOS"
+                  location="Yaoundé"
+                  price="198EUR"
+                /> 
+ </div>
+  <div className=" flex-none bg-white bg-no-repeat shadow-md relative h-full rounded-xl overflow-hidden">
+        <ImageHotel
+                  ImageSrc={to7}
+                  hotelName="STAR LAND HOTEL BASTOS"
+                  location="Yaoundé"
+                  price="198EUR"
+                /> 
+ </div>
+      </div>
+      </div>
+      </div>
+           <div class="max-w-7xl mx-auto pt-14 block md:hidden  ">
+    <section class=" h-[70px] bg-white rounded-md flex justify-center items-center">
+             <Button
+                text="Voir tous les hotels"
+                onClick={handleClick}
+                className="" // Si tu veux ajouter des classes supplémentaires
+              />
+    </section>
+    </div>
       </div>
     );
 };

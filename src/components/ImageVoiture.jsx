@@ -4,7 +4,7 @@ const ImageVoiture = ({ imageSrc, title, details, price }) => {
   return (
     <div>
       <div className="bg-white bg-no-repeat shadow-md relative h-full rounded-xl overflow-hidden">
-        <div className="relative block h-[270px] h-46 bg-white rounded-t-md rounded-b-none shadow-lg hover:shadow-xl transition text-blue-800">
+        <div className="relative block h-[270px] h-46 bg-white rounded-t-md rounded-b-none shadow-lg hover:shadow-xl transition text-blue-800 flex-none">
           <img
             src={imageSrc}
             alt={title}
@@ -12,7 +12,7 @@ const ImageVoiture = ({ imageSrc, title, details, price }) => {
           />
           <div className="absolute bg-blue-900 bg-no-repeat opacity-80 top-0 right-0 h-9 w-9 rounded-full mx-4 mt-4">
             <div className="flex items-center justify-center">
-              <svg
+              <svg 
                 className="text-white mt-2"
                 fill="currentColor"
                 xmlns="http://www.w3.org/2000/svg"
