@@ -22,7 +22,7 @@ const Voiture = () => {
             subtitleStyles={subtitleStyles}
           />
         </div>
-        <div className="bg-white max-w-7xl mx-auto pt-14  ">
+        <div className="bg-white max-w-7xl mx-auto pt-14 hidden md:block  ">
           <div className=" bg-white rounded-md">
             <div className=" grid grid-cols-4 gap-8  ">
               <ImageVoiture
@@ -61,6 +61,45 @@ const Voiture = () => {
             />
           </section>
         </div>
+        <div class="bg-white pt-14 block md:hidden">
+<div class="overflow-x-auto scrollbar-hide">
+    <div class="flex space-x-4">
+      <ImageVoiture
+                imageSrc={to5}
+                title="TOYOTA-CAMRY 2009"
+                details="Wtydfrst | Saloon | Douala"
+                price="40000XAF"
+              />
+              <ImageVoiture
+                imageSrc={to5}
+                title="TOYOTA-CAMRY 2009"
+                details="Wtydfrst | Saloon | Douala"
+                price="40000XAF"
+              />
+              <ImageVoiture
+                imageSrc={to5}
+                title="TOYOTA-CAMRY 2009"
+                details="Wtydfrst | Saloon | Douala"
+                price="40000XAF"
+              />
+              <ImageVoiture
+                imageSrc={to5}
+                title="TOYOTA-CAMRY 2009"
+                details="Wtydfrst | Saloon | Douala"
+                price="40000XAF"
+              />
+      </div>
+      </div>
+      </div>
+              <div class="max-w-7xl mx-auto pt-14 block md:hidden  ">
+    <section class=" h-[70px] bg-white rounded-md flex justify-center items-center">
+             <Button
+                text="Voir tous les voitures"
+                onClick={handleClick}
+                className="" // Si tu veux ajouter des classes supplémentaires
+              />
+    </section>
+    </div>
       </div>
     );
 };

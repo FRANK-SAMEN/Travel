@@ -1,14 +1,16 @@
-import React from 'react';
+import React from "react";
 
 const ImageAppart = ({ location, subtitle, title, price, imageUrl }) => {
   return (
     <div>
       <div
-        className="h-[224px] flex flex-col justify-between rounded-md bg-no-repeat bg-cover"
+        className="h-[224px] flex flex-col justify-between rounded-md bg-no-repeat bg-cover relative"
         style={{ backgroundImage: `url(${imageUrl})` }}
       >
-        <div className="absolute bg-gradient-to-t from-black to-transparent w-[296px] bottom-0 inset-x-0 h-1/2 z-0"></div>
-        <div className="m-4 px-2 py-1 bg-[#000080] opacity-70 rounded-md">
+        {/* Gradient overlay */}
+        <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent z-0"></div>
+
+        <div className="m-4 px-2 py-1 bg-[#000080] opacity-70 rounded-md relative z-10">
           <span className="text-white font-medium text-center opacity-100">
             <strong>{location}</strong>
             <em>-{subtitle}</em>

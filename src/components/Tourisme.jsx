@@ -12,7 +12,7 @@ const Tourisme = () => {
   const subtitleStyles = "mb-2 p-2 lg:text-lg leading-tight text-gray-400 font-medium";
     return (
       <div>
-        <div className="max-w-7xl mx-auto pt-14">
+        <div className="max-w-7xl mx-auto pt-14 md:mx-4">
           <Titregrille
             title="Nos Séjours touristiques pour 2024"
             subtitle="Visitez le monde avec ces séjours vers des destinations exotiques"
@@ -61,6 +61,49 @@ const Tourisme = () => {
             </section>
           </div>
         </div>
+           <div className="  bg-white max-w-7xl mx-auto pt-14 mx-4 block md:hidden ">
+  <div className="overflow-x-auto scrollbar-hide">
+    <div className="flex space-x-4">
+        <ImageTourisme
+                imageUrl={to1}
+                destination="KENYA"
+                subtitle="-douala"
+                daysText="7 jours à partir de:"
+                price="1 456 789"
+              />
+              <ImageTourisme
+                imageUrl={to1}
+                destination="KENYA"
+                subtitle="-douala"
+                daysText="7 jours à partir de:"
+                price="1 456 789"
+              />
+              <ImageTourisme
+                imageUrl={to1}
+                destination="KENYA"
+                subtitle="-douala"
+                daysText="7 jours à partir de:"
+                price="1 456 789"
+              />
+              <ImageTourisme
+                imageUrl={to1}
+                destination="KENYA"
+                subtitle="-douala"
+                daysText="7 jours à partir de:"
+                price="1 456 789"
+              />
+         </div>     
+  </div>
+         </div>
+         <div class="max-w-7xl mx-auto pt-14 block md:hidden  ">
+    <section class=" h-[70px] bg-white rounded-md flex justify-center items-center">
+             <Button
+                text="Voir tous les séjours touristiques"
+                onClick={handleClick}
+                className="" // Si tu veux ajouter des classes supplémentaires
+              />
+    </section>
+    </div>
       </div>
     );
 };
