@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import eas from "../assets/eas.png";
+import aes from "../assets/aes.png";
 import Boutton from "./Boutton";
 const header = () => {
 
@@ -19,7 +19,7 @@ const header = () => {
       <div className="max-w-7xl mx-auto z-20 hidden md:block">
         <div className="flex justify-between items-center bg-white md:flex-row">
           <div className="flex items-center  lg:space-x-0 space-x-3 lg:h-20 relative:min-h-sc">
-            <img className="w-20" src={eas} alt="logo" />
+            <img className="w-32" src={aes} alt="logo" />
           </div>
           <ul className=" relative    w-full lg:flex lg:items-center lg:justify-center lg:space-x-6 space-y-4 lg:space-y-0 z-20">
             {Links.map((LINK) => (
@@ -55,7 +55,7 @@ const header = () => {
         <div className="flex flex-row justify-between items-center py-4 mx-4">
           <div>
             <span className="cursor-pointer">
-              <img className="w-20" src={eas} alt="logo" />
+              <img className="w-20" src={aes} alt="logo" />
             </span>
           </div>
           <div className="flex flex-row">

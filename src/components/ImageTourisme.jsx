@@ -1,4 +1,5 @@
 import React from "react";
+import Cochon from "./Cochon";
 
 const ImageTourisme = ({ imageUrl, destination, subtitle, daysText, price }) => {
   return (
@@ -23,18 +24,8 @@ const ImageTourisme = ({ imageUrl, destination, subtitle, daysText, price }) => 
         </div>
         <div>
           <div className="bg-blue-800/60 rounded-full p-2">
-            <svg
-              stroke="currentColor"
-              fill="currentColor"
-              strokeWidth="0"
-              viewBox="0 0 512 512"
-              className="text-yellow-500"
-              height="24"
-              width="24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path d="M255.55 22.36c-30.93 0-56 25.07-56 56 0 30.927 25.07 56 56 56 30.927 0 56-25.073 56-56 0-30.93-25.073-56-56-56zM105.067 144.47c..."></path>
-            </svg>
+          
+                   <Cochon/>
           </div>
         </div>
       </div>
